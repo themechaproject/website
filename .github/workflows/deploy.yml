@@ -11,9 +11,6 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
 
-    env:
-      NEXT_PUBLIC_BASE_PATH: /YOUR_REPOSITORY
-
     strategy:
       matrix:
         node-version: [14.x]
