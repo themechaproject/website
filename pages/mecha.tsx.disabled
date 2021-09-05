@@ -32,8 +32,6 @@ function Mecha({metadata}: {metadata: {image: string}} ): ReactElement {
 Mecha.getInitialProps = async (ctx: any) => {
   const { tokenId } = ctx.query;
 
-  
-
   const data = await mechaContract.tokenURI(tokenId);
   
   const metadata =  JSON.parse(Buffer.from(data.substring(29), 'base64').toString());
