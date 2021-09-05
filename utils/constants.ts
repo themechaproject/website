@@ -1,0 +1,73 @@
+// Export selected default bags
+export const defaultBags = [
+  {
+    id: 1,
+    attributes: [
+      "Generation: 2",
+      'Mass: 43t',
+      "Body: Biped",
+      "Color: Onyx",
+      "Hull Material: Vibranium",
+      "Pilot: Elk",
+      "Power Source: Fusion Reactor",
+      "Weapon Slots: 2",
+      'Mod Slots: 3',
+    ],
+  },
+  {
+    id: 111,
+    attributes: [
+      "Generation: 5",
+      'Mass: 4855t',
+      "Body: Biped",
+      "Color: Viridian",
+      "Hull Material: Unobtainium",
+      "Pilot: Elk",
+      "Power Source: Kugelblitz Drive",
+      "Weapon Slots: 3",
+      'Mod Slots: 1',
+    ],
+  },
+  {
+    id: 420,
+    attributes: [
+      "Generation: 3",
+      'Mass: 61894t',
+      "Body: Worm",
+      "Color: Ultramarine",
+      "Hull Material: Adamantium",
+      "Pilot: Rock",
+      "Power Source: Flux Capacitor",
+      "Weapon Slots: 5",
+      'Mod Slots: 2',
+    ],
+  },
+  {
+    id: 6969,
+    attributes: [
+      "Generation: 2",
+      'Mass: 220t',
+      "Body: Wheeled",
+      "Color: Gold",
+      "Hull Material: Hyperalloy",
+      "Pilot: AI",
+      "Power Source: Zero Point Engine",
+      "Weapon Slots: 3",
+      'Mod Slots: 2',
+    ],
+  },
+  {
+    id: 1234,
+    attributes: [
+      "Generation: 4",
+      'Mass: 611t',
+      "Body: Quadriped",
+      "Color: Arctic Blue",
+      "Hull Material: Organic",
+      "Pilot: Joe",
+      "Power Source: Microverse Battery",
+      "Weapon Slots: 1",
+      'Mod Slots: 3',
+    ],
+  },
+];
