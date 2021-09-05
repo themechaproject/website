@@ -5,6 +5,8 @@ import { useRouter } from "next/router"; // Routing
 import { default as HTMLHead } from "next/head"; // Meta
 import styles from "@styles/components/Layout.module.scss"; // Styles
 
+import logo from '../public/logo-transparent.png'
+
 // Types
 import type { ReactElement } from "react";
 
@@ -98,7 +100,7 @@ function Header() {
       <div className={styles.header__logo}>
         <Link href="/">
           <a>
-            <Image src="/logo-transparent.png" width="222" height="132" alt="The MECHA Project logo" />
+            <Image src={logo} width="222" height="132" alt="The MECHA Project logo" />
           </a>
         </Link>
       </div>
