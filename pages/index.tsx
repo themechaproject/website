@@ -10,6 +10,10 @@ export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     {
+      name: "Buy on Snowflake",
+      url: "https://snowflake.market/collection/0xfF56b92AEC0F5Acd23f66430c3B7A62af0586A47/1",
+    },
+    {
       name: "Twitter",
       url: "https://twitter.com/themechaproject",
     },
